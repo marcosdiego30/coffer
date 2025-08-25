@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coffee</title>
+</head>
+
+<body>
+    <header id="header-scrol">
+        <div class="conteiner">
+            <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
+            <div class="div-logo">
+                <i class="fa-solid fa-mug-hot"></i> <span>coffee</span>
+            </div>
+
+            <nav id="navbar">
+                <ul id="nav-list">
+                    <li class="nav-itmns"><a href="#">Inicio</a></li>
+                    <li class="nav-itmns"><a href="#about">Sobre</a></li>
+                    <li class="nav-itmns"><a href="#caracteres">Características</a></li>
+                    <li class="nav-itmns"><a href="#menu">Cardápio</a></li>
+                    <li class="nav-itmns"><a href="#footer">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div id="mobileMenu">
+                <ul id="mobile-nav-list">
+                    <li class="nav-itmns"><a href="#"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                    <li class="nav-itmns"><a href="#about"><i class="fa-solid fa-user"></i> Sobre</a></li>
+                    <li class="nav-itmns"><a href="#caracteres"><i class="fa-solid fa-star"></i> Características</a>
+                    </li>
+                    <li class="nav-itmns"><a href="#menu"><i class="fa-solid fa-mug-hot"></i> Cardápio</a></li>
+                    <li class="nav-itmns"><a href="#footer"><i class="fa-solid fa-envelope"></i> Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="login">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-regular fa-user"></i>
+            </div>
+
+
+        </div>
+
+        <div id="carrinho-pedidos">
+            <h3>Meus pedidos</h3>
+            <ul id="lista-pedidos"></ul>
+            <div id="total-carrinho"></div>
+            <button id="finalizar-pedido">Finalizar Pedido</button>
+            <button id="fechar-carrinho">Fechar</button>
+            <div id="mensagem-carrinho"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-section">
+            <div class="container1">
+                <h1>Relaxe e aproveite seu café.</h1>
+
+                <div class="img-main"><img src="./assets/banner2.jpg" alt="foto"></div>
+
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </section>
+    </main>
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about">
+                <h2>Sobre Nós</h2>
+                <p>Nossa cafeteria utiliza apenas café etíope. Todo o café produzido comercialmente é originário da
+                    Etiópia. Amamos a Etiópia por fornecer café para o mundo cultivar, e continuamos a amar o sabor do
+                    café daquele país. A acidez frutada deste café de origem única é equilibrada por suas notas doces de
+                    mel, criando notas suaves e leves com um caráter suave.</p>
+
+                <button>Saber mais</button>
+            </div>
+
+            <div class="img-about">
+                <img src="./assets/cafer0.png" alt="foto">
+            </div>
+        </div>
+    </section>
+
+    <section class="section2" id="caracteres">
+        <div class="container2">
+            <h2>Características</h2>
+
+            <div class="section-box">
+                <div class="card-box">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h3>Alta qualidade</h3>
+                    <p>Desfrute de uma sensação de sabor de café incomparável com nossos grãos de café selecionados,
+                        cuidadosamente torrados para criar uma xícara de café fresco que cativa seu paladar.</p>
+                </div>
+
+                <div class="card-box">
+                    <i class="fa-solid fa-wifi"></i>
+                    <h3>Wi-Fi rápido e Área de trabalho</h3>
+                    <p>Combine produtividade com o prazer do café. Desfrute de uma conexão Wi-Fi super-rápida e um
+                        espaço de trabalho confortável, onde as ideias criativas florescem enquanto saboreia seu café
+                        favorito.</p>
+                </div>
+
+                <div class="card-box">
+                    <i class="fa-solid fa-bed"></i>
+                    <h3>Quarto confortável e acolhedor</h3>
+                    <p>Encontre o lugar perfeito para se reunir, trabalhar ou relaxar com amigos em um ambiente
+                        acolhedor e amigável. Nossos espaços são projetados para criar uma experiência agradável.</p>
+                </div>
+
+                <div class="card-box">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <h3>Cardápio Criativo e Inovador</h3>
+                    <p>Há sempre algo novo para experimentar em cada visita. De cafés especiais a deliciosos petiscos,
+                        nosso cardápio foi elaborado para satisfazer uma variedade de paladares.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="menu">
+        <div class="container3">
+            <h2>Nosso cardápio</h2>
+
+            <div class="section-box">
+                <div class="card">
+                    <div class="img-card"><img src="./assets/cafer4.jpg" alt="foto"></div>
+                    <h3>Café expresso</h3>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i> <span>5.9</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ea sed alias impedit accusamus eum
+                        aperiam, ducimus quos unde consequatur neque optio. Enim et eos ipsa amet earum nulla facilis!
+                    </p>
+
+                    <div class="btn">
+                        <span>RS 13.99</span>
+                        <button id="adicionar"><i class="fa-solid fa-cart-plus"></i> Adicionar</button>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="img-card"><img src="./assets/cafer7.jpg" alt="foto"></div>
+                    <h3>Café com leite</h3>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i> <span class="nota">5.9</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ea sed alias impedit accusamus eum
+                        aperiam, ducimus quos unde consequatur neque optio. Enim et eos ipsa amet earum nulla facilis!
+                    </p>
+
+                    <div class="btn">
+                        <span>RS 15.99</span>
+                        <button><i class="fa-solid fa-cart-plus"></i> Adicionar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-card"><img src="./assets/cafer5.jpg" alt="foto"></div>
+                    <h3>Café Americano</h3>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i> <span class="nota">5.9</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ea sed alias impedit accusamus eum
+                        aperiam, ducimus quos unde consequatur neque optio. Enim et eos ipsa amet earum nulla facilis!
+                    </p>
+
+                    <div class="btn">
+                        <span>RS 10.99</span>
+                        <button><i class="fa-solid fa-cart-plus"></i> Adicionar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <section class="footer">
+
+            <div class="container-footer">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-mug-hot"></i> <span>Cofeer</span>
+                </div>
+
+                <div class="txt">
+                    <h2>Contate-nos</h2>
+                    <div class="local"><i class="fa-solid fa-location-dot"></i> <span> Capital, 123</span></div>
+                    <div class="tel"><i class="fa-solid fa-phone-volume"></i> <span> ( 00 ) 00000-0000</span></div>
+                    <div class="email"><i class="fa-solid fa-envelope"></i> <span> coffer@gmail.com</span></div>
+                </div>
+
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+            </div>
+
+            <p>Copyright ©2025 Coffer. Todos os direitos reservados.</p>
+        </section>
+
+    </footer>
+
+    <div id="modal-login" class="modal-login">
+        <div class="modal-content">
+            <span id="close-modal" class="close">&times;</span>
+            <h2>Entrar ou Cadastrar</h2>
+            <form id="form-login">
+                <h1>Login</h1>
+                <input type="text" id="usuario" placeholder="Usuário" required>
+                <input type="password" id="senha" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+                <button type="button" id="btn-cadastro">Não tenho cadastro</button>
+            </form>
+            <hr>
+            <form id="form-cadastro">
+                <h1>Cadastre-se</h1>
+                <input type="text" id="novo-usuario" placeholder="Novo Usuário" required>
+                <input type="password" id="nova-senha" placeholder="Nova Senha" required>
+                <button type="submit">Cadastrar</button>
+                <button type="button" id="btn-login">Login</button>
+            </form>
+            <div id="msg-login"></div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script src="./js/car.js"></script>
+</body>
+
+</html>
